@@ -17,12 +17,12 @@ import { useRouter } from 'expo-router';
 
 export default function LogIn({
   appName = 'Untopico',
-  logoSource = require('../assets/images/logo.png'),
-  backgroundSource = require('../assets/images/backgroundImage.jpg'),
+  logoSource = require('./assets/logo.png'),
+  backgroundSource = require('./assets/backgroundImage.jpg'),
   title2 = 'Iniciar Sesión',
   question1 = '¿Aún no tienes cuenta?',
   answer1 = 'Crea tu cuenta',
-  googlesource = require('../assets/images/Google.png'), // Imagen de Google
+  googlesource = require('./assets/Google.png'), // Imagen de Google
   forgotText = '¿Olvidaste tu contraseña?',
 }) {
   const [email, setEmail] = useState('');

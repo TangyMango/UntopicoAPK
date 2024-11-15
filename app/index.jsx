@@ -14,9 +14,9 @@ export default function Inicio (){
   }
   return (
     <View style={styles.container}>
-      <Image style={styles.BackImage} source={require('../assets/images/backgroundImage.jpg')} />
+      <Image style={styles.BackImage} source={require('./assets/backgroundImage.jpg')} />
       <View style={styles.overlay}></View>
-      <Image style={styles.logo} source={require('../assets/images/logo.png')} />
+      <Image style={styles.logo} source={require('./assets/logo.png')} />
       <Text style={styles.title}>Untopico</Text>
       <View style={styles.View_LogIn_SignUp}>
         {/* Crear Cuenta */}

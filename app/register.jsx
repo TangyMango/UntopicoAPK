@@ -6,9 +6,9 @@ import TermsAndConditionsModal from './components/termsAndConditions';
 
 export default function Register({
   appName = "Untopico",
-  logoSource = require('../assets/images/logo.png'),
-  backgroundSource = require('../assets/images/backgroundImage.jpg'),
-  googlesource = require('../assets/images/Google.png'),
+  logoSource = require('./assets/logo.png'),
+  backgroundSource = require('./assets/backgroundImage.jpg'),
+  googlesource = require('./assets/Google.png'),
 
   title2 = "Crea tu cuenta",
   question1 = "Ya tienes cuenta",
