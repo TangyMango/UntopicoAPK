@@ -23,6 +23,10 @@ export default function Register({
     router.replace('/login'); // Navega a la pantalla de inicio de sesión
   }
 
+  function handleSignUp() {
+    router.replace('/home'); // Navega a la pantalla de inicio de sesión
+  }
+
   // NECESARIO PARA CHECKBOX
   const [isChecked, setIsChecked] = useState(false);
 

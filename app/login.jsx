@@ -30,8 +30,13 @@ export default function LogIn({
   const router = useRouter(); 
 
   const handleLink = () => {
-    router.replace('register'); // Navega a la pantalla de registro
+    router.replace('register');
   };
+
+  const handleLogIn = () => {
+    router.replace('/home');
+  };
+
 
   const handleForgotLink = () => {
     //router.push('/SignUp_LogIn/forgotPassword');
@@ -80,7 +85,7 @@ export default function LogIn({
             </View>
 
             <View style={styles.ViewButton}>
-              <TouchableOpacity style={styles.button} onPress={handleLogIn} disabled={isBlocked}>
+              <TouchableOpacity style={styles.button} onPress={handleLogIn}>
                 <Text style={styles.buttonText}>Iniciar Sesión</Text>
               </TouchableOpacity>
             </View>
