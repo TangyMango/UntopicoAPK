@@ -28,6 +28,43 @@ export default function TabLayout() {
               headerShown: false,
             }}
           />
+
+          {/* Transfer */}
+          <Tabs.Screen
+            name="transfer"
+            options={{
+              href: null,
+              headerShown: false,
+            }}
+          />
+          <Tabs.Screen
+            name="withdraw"
+            options={{
+              href: null,
+              headerShown: false,
+            }}
+          />
+          <Tabs.Screen
+            name="reportes"
+            options={{
+              href: null,
+              headerShown: false,
+            }}
+          />
+          <Tabs.Screen
+            name="cards"
+            options={{
+              href: null,
+              headerShown: false,
+            }}
+          />
+          <Tabs.Screen
+            name="apartados"
+            options={{
+              href: null,
+              headerShown: false,
+            }}
+          />
         </Tabs>
     </GestureHandlerRootView>
   );

@@ -11,30 +11,39 @@ const Index = () => {
   const router = useRouter();
 
   function handleDepositar() {
+    //router.push('/deposit');
   }
   
   function handleGenerarQR() {
+    //router.push('/deposit');
   }
 
   function handleTransferir() { 
+    router.push('/transfer');
   }
 
   function handleRetirar() {
+    router.push('/withdraw');
   }
 
   function handleScanearQR() {
+    //router.push('/deposit');
   }
 
   function handleReportes() {
+    router.push('/reportes');
   }
 
   function handleServicios() {
+    //router.push('/servicios');
   }
 
   function handleCards() {
+    router.push('/cards');
   }
 
   function handleApartados() {
+    router.push('/apartados');
   }
 
   return (
@@ -133,11 +142,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 10,
     marginBottom: 20,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.8,
-    shadowRadius: 5,
-    elevation: 5,
+    boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.8)', // Reemplazo de shadow*
+    elevation: 5, // Solo necesario para Android
   },
   buttonText: {
     fontSize: 18,
@@ -149,20 +155,13 @@ const styles = StyleSheet.create({
     width: '90%',
     height: 40,
     backgroundColor: '#4fd290', 
-    
     alignItems: 'center',
     justifyContent: 'center',
-
     borderRadius: 10,
     marginBottom: 5,
-
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.8,
-    shadowRadius: 5,
-    elevation: 5,
-
-  },
+    boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.8)', // Sustituto para sombras
+    elevation: 5, // Necesario en Android
+  },  
   buttonTextApartados: {
     fontSize: 18,
     color: 'black',
