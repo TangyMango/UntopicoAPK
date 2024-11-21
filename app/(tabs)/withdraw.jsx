@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
 
+
 // Constantes para los textos
 const TITLE = 'Retirar';
 const EMAIL_PLACEHOLDER = 'Ingrese su correo electrónico';

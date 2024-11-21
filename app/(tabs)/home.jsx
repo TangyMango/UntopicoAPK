@@ -11,11 +11,11 @@ const Index = () => {
   const router = useRouter();
 
   function handleDepositar() {
-    //router.push('/deposit');
+    router.push('/deposit');
   }
   
   function handleGenerarQR() {
-    //router.push('/deposit');
+    //router.push('/generarQR');
   }
 
   function handleTransferir() { 
@@ -27,7 +27,7 @@ const Index = () => {
   }
 
   function handleScanearQR() {
-    //router.push('/deposit');
+    //router.push('/scanQR');
   }
 
   function handleReportes() {

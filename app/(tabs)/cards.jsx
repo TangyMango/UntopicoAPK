@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal } from 'react-native';
+import HeadLogo from '../components/headLogo';
+
 //import Card from '../components/card';
 //import { CreditCardForm } from '../components/CreditCardForm';
 // import { DeleteCreditCard } from '../components/DeleteCreditCard';
@@ -33,6 +35,7 @@ const cards = () => {
 
     return (
         <View style={styles.container}>
+            <HeadLogo />
             <Text style={styles.title}>{TITLE}</Text>
 
             <TouchableOpacity style={styles.button} onPress={handleAddCard}>
