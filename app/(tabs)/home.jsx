@@ -4,6 +4,7 @@ import { useRouter } from 'expo-router';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import IconM from 'react-native-vector-icons/MaterialIcons'
 import HeadLogo from '../components/headLogo';
+import Card1 from '../components/card1';
 
 const { width } = Dimensions.get('window');
 
@@ -51,6 +52,10 @@ const Index = () => {
       <View style={styles.HeadLogo}>
         <HeadLogo />
       </View>
+
+      <View style={styles.card1}>
+          <Card1 datos={{}} />
+        </View>
 
 
       <View style={styles.UserCards}>
@@ -113,6 +118,9 @@ const Index = () => {
 };
 
 const styles = StyleSheet.create({
+  card1: {
+    marginBottom: 50,
+  },
   scrollContainer: {
     flex: 1,
     backgroundColor: '#f2f2f2',
